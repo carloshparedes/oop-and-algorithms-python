@@ -79,3 +79,17 @@ Para ejecutar este script, sigue estos pasos:
 4. El script te pedirá que introduzcas el tamaño de la lista y el número que quieres encontrar. Introduce estos valores cuando se te solicite.
 
 El script generará una lista de números aleatorios del tamaño que hayas especificado, ordenará la lista, realizará una búsqueda binaria para encontrar el número que has introducido, e imprimirá la lista y el resultado de la búsqueda.
+
+# Bubble Sort
+
+Este script realiza un ordenamiento de burbuja (Bubble Sort) en una lista de números aleatorios. Bubble Sort es un algoritmo de ordenamiento simple que repite pasos de pasar por la lista, comparar elementos adyacentes y cambiarlos si están en el orden incorrecto. Este proceso se repite hasta que no se necesiten más intercambios, lo que indica que la lista está ordenada. La complejidad de tiempo de este algoritmo es O(n²), lo que significa que el tiempo de ejecución aumenta cuadráticamente con el tamaño de la entrada.
+
+## Ejecución
+
+El script te pedirá que introduzcas el tamaño de la lista. Introduce este valor cuando se te solicite.
+
+El script generará una lista de números aleatorios del tamaño que hayas especificado, ordenará la lista utilizando el algoritmo Bubble Sort, e imprimirá la lista antes y después del ordenamiento.
+
+    De que tamano sera la lista? 10
+    Antes [39, 91, 33, 39, 9, 97, 74, 74, 39, 23]
+    Despues [9, 23, 33, 39, 39, 39, 74, 74, 91, 97]
