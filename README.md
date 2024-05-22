@@ -51,3 +51,31 @@ Para ejecutar este script, sigue estos pasos:
 4. El script te pedirá que introduzcas el tamaño de la lista y el número que quieres encontrar. Introduce estos valores cuando se te solicite.
 
 El script generará una lista de números aleatorios del tamaño que hayas especificado, realizará una búsqueda lineal para encontrar el número que has introducido, e imprimirá la lista y el resultado de la búsqueda.
+
+ # Búsqueda Binaria
+
+Este script realiza una búsqueda binaria en una lista de números aleatorios. La búsqueda binaria es un algoritmo que encuentra un elemento en una lista ordenada dividiendo la lista en mitades. La complejidad de tiempo de este algoritmo es O(log n), lo que significa que el tiempo de ejecución aumenta logarítmicamente con el tamaño de la entrada.
+
+
+
+## Ejecución
+
+Para ejecutar este script, sigue estos pasos:
+
+1. Abre una terminal.
+
+2. Navega a la carpeta `scripts` donde se encuentra el script `busqueda_binaria.py`. Puedes hacerlo con el comando `cd`, por ejemplo:
+
+    ```bash
+    cd ruta/a/la/carpeta/scripts
+    ```
+
+3. Ejecuta el script con Python:
+
+    ```bash
+    python3 busqueda_binaria.py
+    ```
+
+4. El script te pedirá que introduzcas el tamaño de la lista y el número que quieres encontrar. Introduce estos valores cuando se te solicite.
+
+El script generará una lista de números aleatorios del tamaño que hayas especificado, ordenará la lista, realizará una búsqueda binaria para encontrar el número que has introducido, e imprimirá la lista y el resultado de la búsqueda.
