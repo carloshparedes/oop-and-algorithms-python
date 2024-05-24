@@ -93,3 +93,21 @@ El script generará una lista de números aleatorios del tamaño que hayas espec
     De que tamano sera la lista? 10
     Antes [39, 91, 33, 39, 9, 97, 74, 74, 39, 23]
     Despues [9, 23, 33, 39, 39, 39, 74, 74, 91, 97]
+
+# Ordenamiento por Mezcla (Merge Sort)
+
+Este script realiza un ordenamiento por mezcla en una lista de números aleatorios. El ordenamiento por mezcla es un algoritmo de tipo divide y vencerás que divide la lista desordenada en n sublistas, cada una conteniendo un elemento (una lista de un elemento se considera ordenada), y luego combina repetidamente las sublistas para producir nuevas sublistas ordenadas hasta que solo queda una. La complejidad temporal de este algoritmo es O(n log n), lo que significa que el tiempo de ejecución aumenta logarítmicamente con el tamaño de la entrada.
+
+## Ejecución
+
+El script te pedirá que introduzcas el tamaño de la lista. Introduce este valor cuando se te solicite.
+
+El script generará una lista de números aleatorios del tamaño que hayas especificado, ordenará la lista utilizando el algoritmo de ordenamiento por mezcla, e imprimirá la lista antes y después del ordenamiento.
+
+Ejemplo:
+
+```bash
+¿De qué tamaño será la lista? 10
+[39, 91, 33, 39, 9, 97, 74, 74, 39, 23]
+--------------------
+Lista ordenada [9, 23, 33, 39, 39, 39, 74, 74, 91, 97]
