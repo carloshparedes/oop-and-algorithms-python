@@ -106,13 +106,12 @@ El script generará una lista de números aleatorios del tamaño que hayas espec
 
 Ejemplo:
 
-    ```bash
     ¿De qué tamaño será la lista? 10
     [39, 91, 33, 39, 9, 97, 74, 74, 39, 23]
     --------------------
     Lista ordenada [9, 23, 33, 39, 39, 39, 74, 74, 91, 97]
 
-***# Creación del directorio graficado y activación del entorno virtual
+# Creación del directorio graficado y activación del entorno virtual
 
 Para crear el directorio `graficado`, se utilizó el siguiente comando:
 
@@ -124,4 +123,4 @@ Una vez creado el directorio, se activó el entorno virtual utilizando el comand
 
 Con el entorno virtual activado, se instaló la biblioteca Bokeh para la creación de gráficos interactivos:
     
-    pip install bokeh***
+    pip install bokeh
