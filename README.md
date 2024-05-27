@@ -137,6 +137,17 @@ El script realiza las siguientes operaciones:
 4. Grafica los valores x y y en una línea.
 5. Muestra la gráfica en un archivo HTML llamado "graficado_simple.html".
 
-Para ejecutar el script, asegúrate de tener activado el entorno virtual y de haber instalado la biblioteca Bokeh.
+Para ejecutar el script, asegúrate de tener activado el entorno virtual y de haber instalado la biblioteca [Bokeh](https://docs.bokeh.org/en/latest/index.html).
 
 ![Grafico simple](./readme_img/grafico_simple.png)
+
+## Documentación de 01knapsack.py
+
+El script `01knapsack.py` implementa el algoritmo del problema de la mochila 0/1.
+
+El script realiza las siguientes operaciones:
+
+1. Define los pesos y los valores de los elementos disponibles.
+2. Define la capacidad máxima de la mochila.
+3. Implementa el algoritmo de la mochila 0/1 para determinar el máximo valor que se puede llevar en la mochila sin exceder su capacidad.
+4. Imprime el máximo valor que se puede llevar en la mochila.
