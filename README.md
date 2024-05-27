@@ -124,3 +124,19 @@ Una vez creado el directorio, se activó el entorno virtual utilizando el comand
 Con el entorno virtual activado, se instaló la biblioteca Bokeh para la creación de gráficos interactivos:
     
     pip install bokeh
+
+## Documentación de graficado_simple.py
+
+El script `graficado_simple.py` genera un gráfico simple con valores de entrada proporcionados por el usuario.
+
+El script realiza las siguientes operaciones:
+
+1. Pide al usuario el número total de valores a graficar.
+2. Crea una lista de valores x basada en el número total de valores.
+3. Pide al usuario un valor y para cada valor x y lo agrega a una lista de valores y.
+4. Grafica los valores x y y en una línea.
+5. Muestra la gráfica en un archivo HTML llamado "graficado_simple.html".
+
+Para ejecutar el script, asegúrate de tener activado el entorno virtual y de haber instalado la biblioteca Bokeh.
+
+![Grafico simple](./readme_img/grafico_simple.png)
